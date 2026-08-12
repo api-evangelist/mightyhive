@@ -1,0 +1,17 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.monks.com/
+plan_count: 0
+plans: []
+note: >-
+  MightyHive publishes no plans, tiers or list pricing, and neither does its successor
+  brand. It is a professional-services consultancy: engagements are scoped and quoted, not
+  subscribed to. /pricing and /plans both 404 on www.monks.com, and the legacy mightyhive.com
+  archive has no pricing page either. There is no API product to price.
+evidence:
+- url: https://www.monks.com/pricing
+  status: 404
+- url: https://www.monks.com/plans
+  status: 404
+- url: https://mightyhive.com/pricing
+  status: 404

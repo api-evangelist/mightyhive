@@ -1,0 +1,19 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.monks.com/
+limit_count: 0
+limits: []
+headers: []
+note: >-
+  No rate limits are documented because no API exists to limit. Contract discovery found no
+  REST/OpenAPI, GraphQL, MCP or webhook surface on any MightyHive or Monks host, and no
+  developer, docs or api subdomain resolves. Recorded as an honest zero rather than omitted.
+evidence:
+- url: https://developer.mightyhive.com/
+  status: 0
+  note: DNS does not resolve
+- url: https://api.monks.com/
+  status: 0
+  note: DNS does not resolve
+- url: https://mightyhive.com/openapi.json
+  status: 404

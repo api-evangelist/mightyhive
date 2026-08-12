@@ -1,0 +1,52 @@
+# MightyHive
+
+> MightyHive was an independent data and digital media consultancy that helped brands take
+> control of their programmatic advertising, media buying, data strategy and marketing
+> technology. It was acquired by S4 Capital in 2018, merged with MediaMonks, rebranded to
+> Media.Monks in August 2021, and now operates under the single "Monks" brand at monks.com.
+> MightyHive is a professional-services business, not an API product company: it published
+> no public API, developer portal, machine-readable specification, SDK or webhook surface,
+> and the successor brand publishes none either.
+
+## Status
+
+- The MightyHive brand is retired. The operating company is Monks (S4 Capital plc).
+- mightyhive.com still resolves but serves a frozen Drupal 8 archive of pre-2021 press
+  releases, case studies and event pages. There is no developer section.
+- No OpenAPI, AsyncAPI, GraphQL SDL, Postman collection, MCP server or A2A agent card was
+  found on any MightyHive or Monks host.
+- No first-party client library exists on npm, PyPI, RubyGems or crates.io.
+
+## Company
+
+- [Monks (successor brand website)](https://www.monks.com/): the current S4 Capital operating brand.
+- [MightyHive legacy site](https://mightyhive.com/): archived pre-2021 MightyHive marketing site.
+- [MightyHive on Wikipedia](https://en.wikipedia.org/wiki/MightyHive): company history and acquisition record.
+- [Monks articles](https://www.monks.com/articles): the company blog / insights feed.
+- [Privacy notice](https://www.monks.com/privacy-notice): Monks privacy notice.
+
+## Code
+
+- [GitHub organization](https://github.com/MightyHive): named "Media.Monks (formerly MightyHive)".
+  ~25 public repositories of internal tooling, Looker blocks, Bazel/forked build rules and
+  ML/marketing notebooks. No published API specification and no released client SDK.
+
+## Security
+
+- [security.txt](https://www.monks.com/.well-known/security.txt): RFC 9116 contact address
+  (security@mediamonks.com). No disclosure policy URL is published.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/apis.yml): the API Evangelist profile for this company.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/well-known/mightyhive-well-known.yml): what every discovery path returned.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/security/mightyhive-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe.
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/security/mightyhive-vulnerability-disclosure.yml): security.txt contact.
+
+## Notes for agents
+
+There is nothing here to call. Any task that requires programmatic access to MightyHive or
+Monks media, campaign or measurement data must go through the underlying advertising
+platforms (Google Marketing Platform / DV360, Amazon Ads, Meta and similar) that the
+consultancy operates on a client's behalf, or through a direct commercial engagement with
+Monks. Do not infer an API from the existence of this profile.

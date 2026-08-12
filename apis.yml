@@ -23,9 +23,13 @@ description: >-
   work, Amazon eCommerce solutions, and marketing/AI transformation services for
   enterprise brands. It is a professional-services / consulting business, not an
   API product company: it publishes no public developer API, API documentation,
-  developer portal, SDK, or open-source GitHub organization. Added to the API
-  Evangelist network as an a16z-portfolio lead; enrichment confirms no API
-  surface exists.
+  developer portal, machine-readable specification, or client SDK on any package
+  registry. It does keep a public GitHub organization (github.com/MightyHive,
+  named "Media.Monks (formerly MightyHive)") of internal tooling, Looker blocks
+  and ML notebooks, but nothing there is a released API or client library. The
+  legacy mightyhive.com domain still resolves and serves a frozen archive of
+  pre-2021 press and case studies. Added to the API Evangelist network as an
+  a16z-portfolio lead; repeated enrichment confirms no API surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/mightyhive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,7 +41,7 @@ x-rebranded-to: Media.Monks / Monks (S4 Capital)
 x-rebranded-url: https://www.monks.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-12'
 tags:
 - Company
 - Advertising
@@ -48,8 +52,30 @@ tags:
 - Data
 - Advertising Technology
 common:
+- type: VulnerabilityDisclosure
+  url: security/mightyhive-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.monks.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/mightyhive-domain-security.yml
+- type: WellKnown
+  url: well-known/mightyhive-well-known.yml
+- type: SecurityTxt
+  url: well-known/mightyhive-security.txt
+- type: LLMsTxt
+  url: llms/mightyhive-llms.txt
+- type: Plans
+  url: plans/mightyhive-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/mightyhive-rate-limits.yml
 - type: Website
   url: https://www.monks.com/
+- type: Blog
+  url: https://www.monks.com/articles
+- type: PrivacyPolicy
+  url: https://www.monks.com/privacy-notice
+- type: GitHubOrganization
+  url: https://github.com/MightyHive
 - type: Company
   url: https://en.wikipedia.org/wiki/MightyHive
 apis: []
@@ -59,7 +85,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 x-enrichment:
-  date: '2026-07-20'
-  status: nochange
-  artifacts_added: 0
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 7
   pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    The MightyHive brand was absorbed into S4 Capital and retired in favour of Media.Monks
+    and then Monks — mightyhive.com is now a frozen Drupal 8 archive of pre-2021 press pages
+    that 404s on every discovery path, and no api./developer./docs. subdomain resolves on
+    either mightyhive.com or the successor monks.com.
+  evidence:
+  - url: https://mightyhive.com/openapi.json
+    status: 404
+  - url: https://mightyhive.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.monks.com/openapi.json
+    status: 404
+  - url: https://www.monks.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.monks.com/.well-known/security.txt
+    status: 200
+  checked: '2026-08-12'

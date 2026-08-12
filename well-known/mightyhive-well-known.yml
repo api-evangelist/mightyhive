@@ -1,0 +1,58 @@
+generated: '2026-08-12'
+method: probed
+source: live GET of /.well-known/* on every host named in apis.yml plus the legacy company domain
+note: >-
+  MightyHive was acquired by S4 Capital in 2018, merged with MediaMonks and rebranded to
+  Media.Monks in August 2021, and now trades under the single "Monks" brand at monks.com —
+  which is why apis.yml names https://www.monks.com/ as the Website and why the successor
+  host is probed here alongside the legacy mightyhive.com domain. The only document served
+  anywhere on either host is the RFC 9116 security.txt at www.monks.com; every other
+  discovery path returns 404. mightyhive.com is still online but is a frozen Drupal 8
+  archive of pre-2021 press and case-study pages with no discovery surface at all.
+hosts:
+- host: https://www.monks.com
+  role: successor-brand website (apis.yml Website)
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/plain
+    file: mightyhive-security.txt
+    note: RFC 9116; carries a Contact line only — no Policy, Expires, Encryption or Preferred-Languages field.
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://mightyhive.com
+  role: legacy MightyHive brand domain (still resolving, archival content)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+summary:
+  hosts_probed: 2
+  paths_probed: 14
+  documents_found: 1
+  security_txt: true
+  openid_configuration: false
+  oauth_authorization_server: false
+  api_catalog: false
+  agent_card: false
