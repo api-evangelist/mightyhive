@@ -64,6 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MightyHive is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+MightyHive was a data and digital media consultancy that helped brands take control of their programmatic advertising, media buying, data strategy, and marketing technology. Founded as an independent programmatic trading and media consultancy, it was acquired by S4 Capital and rebranded to Media.Monks in August 2021; the S4 Capital operating company has since consolidated under the single "Monks" brand (monks.com). Its offerings spanned digital media transformation, campaign launch and measurement, customer data platform (CDP) work, Amazon eCommerce solutions, and marketing/AI transformation services for enterprise brands. It is a professional-services / consulting business, not an API product company: it publishes no public developer API, API documentation, developer portal, machine-readable specification, or client SDK on any package registry. It does keep a public GitHub organization (github.com/MightyHive, named "Media.Monks (formerly MightyHive)") of internal tooling, Looker blocks and ML notebooks, but nothing there is a released API or client library. The legacy mightyhive.com domain still resolves and serves a frozen archive of pre-2021 press and case studies. Added to the API Evangelist network as an a16z-portfolio lead; repeated enrichment confirms no API surface exists.
 
-Backed by: a16z
+**Areas:** Company · Advertising · Marketing · Media · Programmatic Advertising · Consulting · Data · AdTech
+
+## MightyHive on APIs.io
+
+Everything profiled for MightyHive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mightyhive/](https://apis.io/providers/mightyhive/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mightyhive Domain Security](https://apis.io/security/mightyhive/mightyhive-domain-security/)
+- [Mightyhive Vulnerability Disclosure](https://apis.io/security/mightyhive/mightyhive-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mightyhive Plans Pricing](https://apis.io/plans/mightyhive/mightyhive-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Mightyhive Rate Limits](https://apis.io/rate-limits/mightyhive/mightyhive-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.monks.com/)
+- [Blog](https://www.monks.com/articles)
+- [Security](https://www.monks.com/.well-known/security.txt)
+- [Privacy policy](https://www.monks.com/privacy-notice)
+- [GitHub](https://github.com/MightyHive)
+
+## API Evangelist rating
+
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mightyhive/](https://apis.io/providers/mightyhive/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MightyHive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mightyhive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
